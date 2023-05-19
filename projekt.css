@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    background: #444;
+    
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 15%;
+}
+
+.logo{
+    font-size: 40px;
+    color: #fff;
+}
+
+.navlist a{
+    
+    margin: 0 1.7rem;
+    color: #fff;
+}
+
+.navlist a:hover{
+    color: aqua;
+    transition: all .45s ease;
+
+}
+
+.btn{
+    padding: 10px 30px;
+    background-color: aqua; 
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all .45s ease;
+}
+
+.btn:hover{
+    background-color:blue;
+}
+
